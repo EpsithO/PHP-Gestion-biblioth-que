@@ -76,7 +76,7 @@ if (!$adherent->IsadhesionValable()) {
 echo "Test n°7 : vérifier que l’adhésion est renouvelée  \n";
 $adherent=  new \App\Adherent("Mathéo","Maire","matheo.maire.25@gmail.com", "12/10/2022");
 
-$dateAdhesion1ans = DateTime::createFromFormat("d/m/Y","02/10/2022");
+$dateAdhesion1ans = DateTime::createFromFormat("d/m/Y","12/10/2022");
 
 $dateAdhesion1ans = $dateAdhesion1ans->modify("+1 year")->format("d/m/Y");
 

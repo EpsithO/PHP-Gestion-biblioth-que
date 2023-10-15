@@ -35,7 +35,7 @@ class Adherent
      */
     public function getNumeroAdherent(): string
     {
-        return $this->dateAdhesionAdherent;
+        return $this->numeroAdherent;
     }
 
 

@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__."/../../vendor/autoload.php";
+require_once "test/Utils/couleur.php";
 
 echo "Test N°1 : vérifier que la date d’emprunt, à la création, est égale à la date du jour \n";
 $adherent=  new \App\Adherent("Mathéo","Maire","matheo.maire.25@gmail.com");
